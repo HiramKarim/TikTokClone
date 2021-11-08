@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		1F92AD5527389F5100FD830E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5427389F5100FD830E /* AppDelegate.swift */; };
 		1F92AD5727389F5100FD830E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5627389F5100FD830E /* SceneDelegate.swift */; };
-		1F92AD5927389F5100FD830E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5827389F5100FD830E /* ViewController.swift */; };
+		1F92AD5927389F5100FD830E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5827389F5100FD830E /* HomeViewController.swift */; };
 		1F92AD5E27389F5300FD830E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F92AD5D27389F5300FD830E /* Assets.xcassets */; };
 		1F92AD6127389F5300FD830E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F92AD5F27389F5300FD830E /* LaunchScreen.storyboard */; };
 		1F92AD6C27389F5300FD830E /* TikTokCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD6B27389F5300FD830E /* TikTokCloneTests.swift */; };
 		1F92AD7627389F5300FD830E /* TikTokCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD7527389F5300FD830E /* TikTokCloneUITests.swift */; };
 		1F92AD7827389F5300FD830E /* TikTokCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD7727389F5300FD830E /* TikTokCloneUITestsLaunchTests.swift */; };
+		1F92AD8E2738AC3B00FD830E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD8D2738AC3B00FD830E /* ExploreViewController.swift */; };
+		1F92AD902738AC4C00FD830E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD8F2738AC4C00FD830E /* CameraViewController.swift */; };
+		1F92AD922738AC5B00FD830E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD912738AC5B00FD830E /* NotificationsViewController.swift */; };
+		1F92AD942738AC6600FD830E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD932738AC6600FD830E /* ProfileViewController.swift */; };
+		1F92AD962738AC7D00FD830E /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD952738AC7D00FD830E /* UserListViewController.swift */; };
+		1F92AD982738AC9200FD830E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD972738AC9200FD830E /* SignInViewController.swift */; };
+		1F92AD9A2738ACA500FD830E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD992738ACA500FD830E /* SignUpViewController.swift */; };
+		1F92AD9C2738AD0000FD830E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD9B2738AD0000FD830E /* SettingsViewController.swift */; };
+		1F92AD9E2738AD1A00FD830E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD9D2738AD1A00FD830E /* TabBarViewController.swift */; };
+		1F92ADA22738AD6A00FD830E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADA12738AD6A00FD830E /* PostViewController.swift */; };
+		1F92ADA42738ADE800FD830E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADA32738ADE800FD830E /* APICaller.swift */; };
+		1F92ADA62738ADF500FD830E /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADA52738ADF500FD830E /* StoreManager.swift */; };
+		1F92ADA82738B1DE00FD830E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADA72738B1DE00FD830E /* DatabaseManager.swift */; };
+		1F92ADAA2738B1F300FD830E /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADA92738B1F300FD830E /* AuthenticationManager.swift */; };
+		1F92ADAC2738B21000FD830E /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92ADAB2738B21000FD830E /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +53,7 @@
 		1F92AD5127389F5100FD830E /* TikTokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92AD5427389F5100FD830E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F92AD5627389F5100FD830E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F92AD5827389F5100FD830E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F92AD5827389F5100FD830E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1F92AD5D27389F5300FD830E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F92AD6027389F5300FD830E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F92AD6227389F5300FD830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		1F92AD7127389F5300FD830E /* TikTokCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92AD7527389F5300FD830E /* TikTokCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITests.swift; sourceTree = "<group>"; };
 		1F92AD7727389F5300FD830E /* TikTokCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F92AD8D2738AC3B00FD830E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		1F92AD8F2738AC4C00FD830E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1F92AD912738AC5B00FD830E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		1F92AD932738AC6600FD830E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1F92AD952738AC7D00FD830E /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		1F92AD972738AC9200FD830E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1F92AD992738ACA500FD830E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1F92AD9B2738AD0000FD830E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1F92AD9D2738AD1A00FD830E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1F92ADA12738AD6A00FD830E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1F92ADA32738ADE800FD830E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		1F92ADA52738ADF500FD830E /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		1F92ADA72738B1DE00FD830E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1F92ADA92738B1F300FD830E /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		1F92ADAB2738B21000FD830E /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +127,12 @@
 		1F92AD5327389F5100FD830E /* TikTokClone */ = {
 			isa = PBXGroup;
 			children = (
-				1F92AD5427389F5100FD830E /* AppDelegate.swift */,
-				1F92AD5627389F5100FD830E /* SceneDelegate.swift */,
-				1F92AD5827389F5100FD830E /* ViewController.swift */,
-				1F92AD5D27389F5300FD830E /* Assets.xcassets */,
-				1F92AD5F27389F5300FD830E /* LaunchScreen.storyboard */,
+				1F92AD892738AB9B00FD830E /* Managers */,
+				1F92AD882738AB8800FD830E /* ViewModels */,
+				1F92AD872738AB7F00FD830E /* Models */,
+				1F92AD862738AB7500FD830E /* Views */,
+				1F92AD852738AB6900FD830E /* Controllers */,
+				1F92AD842738AB5900FD830E /* Resources */,
 				1F92AD6227389F5300FD830E /* Info.plist */,
 			);
 			path = TikTokClone;
@@ -122,6 +153,100 @@
 				1F92AD7727389F5300FD830E /* TikTokCloneUITestsLaunchTests.swift */,
 			);
 			path = TikTokCloneUITests;
+			sourceTree = "<group>";
+		};
+		1F92AD842738AB5900FD830E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F92AD5D27389F5300FD830E /* Assets.xcassets */,
+				1F92AD5427389F5100FD830E /* AppDelegate.swift */,
+				1F92AD5627389F5100FD830E /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F92AD852738AB6900FD830E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F92AD8B2738ABF400FD830E /* Other */,
+				1F92AD8A2738ABE500FD830E /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F92AD862738AB7500FD830E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F92ADA02738AD4100FD830E /* Other */,
+				1F92AD9F2738AD2B00FD830E /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F92AD872738AB7F00FD830E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F92AD882738AB8800FD830E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F92AD892738AB9B00FD830E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1F92ADA32738ADE800FD830E /* APICaller.swift */,
+				1F92ADA52738ADF500FD830E /* StoreManager.swift */,
+				1F92ADA72738B1DE00FD830E /* DatabaseManager.swift */,
+				1F92ADA92738B1F300FD830E /* AuthenticationManager.swift */,
+				1F92ADAB2738B21000FD830E /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1F92AD8A2738ABE500FD830E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1F92AD5827389F5100FD830E /* HomeViewController.swift */,
+				1F92AD8D2738AC3B00FD830E /* ExploreViewController.swift */,
+				1F92AD8F2738AC4C00FD830E /* CameraViewController.swift */,
+				1F92AD912738AC5B00FD830E /* NotificationsViewController.swift */,
+				1F92AD932738AC6600FD830E /* ProfileViewController.swift */,
+				1F92AD952738AC7D00FD830E /* UserListViewController.swift */,
+				1F92AD972738AC9200FD830E /* SignInViewController.swift */,
+				1F92AD992738ACA500FD830E /* SignUpViewController.swift */,
+				1F92AD9B2738AD0000FD830E /* SettingsViewController.swift */,
+				1F92AD9D2738AD1A00FD830E /* TabBarViewController.swift */,
+				1F92ADA12738AD6A00FD830E /* PostViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1F92AD8B2738ABF400FD830E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1F92AD9F2738AD2B00FD830E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F92AD5F27389F5300FD830E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F92ADA02738AD4100FD830E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +379,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F92AD5927389F5100FD830E /* ViewController.swift in Sources */,
+				1F92ADAC2738B21000FD830E /* HapticsManager.swift in Sources */,
+				1F92ADA82738B1DE00FD830E /* DatabaseManager.swift in Sources */,
+				1F92AD8E2738AC3B00FD830E /* ExploreViewController.swift in Sources */,
+				1F92AD962738AC7D00FD830E /* UserListViewController.swift in Sources */,
+				1F92AD9C2738AD0000FD830E /* SettingsViewController.swift in Sources */,
+				1F92ADA42738ADE800FD830E /* APICaller.swift in Sources */,
+				1F92ADA22738AD6A00FD830E /* PostViewController.swift in Sources */,
+				1F92AD902738AC4C00FD830E /* CameraViewController.swift in Sources */,
+				1F92AD9E2738AD1A00FD830E /* TabBarViewController.swift in Sources */,
+				1F92AD5927389F5100FD830E /* HomeViewController.swift in Sources */,
+				1F92AD9A2738ACA500FD830E /* SignUpViewController.swift in Sources */,
+				1F92ADAA2738B1F300FD830E /* AuthenticationManager.swift in Sources */,
+				1F92AD922738AC5B00FD830E /* NotificationsViewController.swift in Sources */,
+				1F92AD982738AC9200FD830E /* SignInViewController.swift in Sources */,
+				1F92AD942738AC6600FD830E /* ProfileViewController.swift in Sources */,
+				1F92ADA62738ADF500FD830E /* StoreManager.swift in Sources */,
 				1F92AD5527389F5100FD830E /* AppDelegate.swift in Sources */,
 				1F92AD5727389F5100FD830E /* SceneDelegate.swift in Sources */,
 			);
