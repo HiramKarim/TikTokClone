@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F82DD382742100900DFC4B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82DD372742100900DFC4B7 /* Extensions.swift */; };
 		1F92AD5527389F5100FD830E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5427389F5100FD830E /* AppDelegate.swift */; };
 		1F92AD5727389F5100FD830E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5627389F5100FD830E /* SceneDelegate.swift */; };
 		1F92AD5927389F5100FD830E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5827389F5100FD830E /* HomeViewController.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F82DD372742100900DFC4B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1F92AD5127389F5100FD830E /* TikTokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92AD5427389F5100FD830E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F92AD5627389F5100FD830E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F82DD3627420EFE00DFC4B7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		1F92AD4827389F5100FD830E = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +190,7 @@
 				1F92AD5D27389F5300FD830E /* Assets.xcassets */,
 				1F92AD5427389F5100FD830E /* AppDelegate.swift */,
 				1F92AD5627389F5100FD830E /* SceneDelegate.swift */,
+				1F82DD372742100900DFC4B7 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 		1F92AD852738AB6900FD830E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1F82DD3627420EFE00DFC4B7 /* New Group */,
 				1F92AD8B2738ABF400FD830E /* Other */,
 				1F92AD8A2738ABE500FD830E /* Core */,
 			);
@@ -556,6 +567,7 @@
 				1F92AD9C2738AD0000FD830E /* SettingsViewController.swift in Sources */,
 				1F92ADA42738ADE800FD830E /* APICaller.swift in Sources */,
 				1F92ADA22738AD6A00FD830E /* PostViewController.swift in Sources */,
+				1F82DD382742100900DFC4B7 /* Extensions.swift in Sources */,
 				1F92AD902738AC4C00FD830E /* CameraViewController.swift in Sources */,
 				1F92AD9E2738AD1A00FD830E /* TabBarViewController.swift in Sources */,
 				1F92AD5927389F5100FD830E /* HomeViewController.swift in Sources */,
