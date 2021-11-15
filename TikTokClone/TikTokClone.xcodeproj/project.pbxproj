@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F82DD382742100900DFC4B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82DD372742100900DFC4B7 /* Extensions.swift */; };
+		1F82DD3A27421A3500DFC4B7 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82DD3927421A3500DFC4B7 /* PostModel.swift */; };
 		1F92AD5527389F5100FD830E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5427389F5100FD830E /* AppDelegate.swift */; };
 		1F92AD5727389F5100FD830E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5627389F5100FD830E /* SceneDelegate.swift */; };
 		1F92AD5927389F5100FD830E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92AD5827389F5100FD830E /* HomeViewController.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		1F82DD372742100900DFC4B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F82DD3927421A3500DFC4B7 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		1F92AD5127389F5100FD830E /* TikTokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92AD5427389F5100FD830E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F92AD5627389F5100FD830E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		1F92AD872738AB7F00FD830E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1F82DD3927421A3500DFC4B7 /* PostModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F92ADAC2738B21000FD830E /* HapticsManager.swift in Sources */,
+				1F82DD3A27421A3500DFC4B7 /* PostModel.swift in Sources */,
 				1F92ADA82738B1DE00FD830E /* DatabaseManager.swift in Sources */,
 				1F92AD8E2738AC3B00FD830E /* ExploreViewController.swift in Sources */,
 				1F92AD962738AC7D00FD830E /* UserListViewController.swift in Sources */,
