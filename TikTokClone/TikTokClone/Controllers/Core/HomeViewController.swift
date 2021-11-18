@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
     
     private enum PagerSection {
         case FollowingFeed
@@ -16,11 +16,19 @@ class HomeViewController: UIViewController {
     
     private let horizontalScrollView: UIScrollView = {
         let scroll = UIScrollView()
-        scroll.backgroundColor = .red
         scroll.bounces = false
         scroll.isPagingEnabled = true
         scroll.showsHorizontalScrollIndicator = false
         return scroll
+    }()
+    
+    private let segmentedControl: UISegmentedControl = {
+        let titles = ["Following", "For You"]
+        let control = UISegmentedControl(items: titles)
+        control.selectedSegmentIndex = 1
+        control.backgroundColor = nil
+        control.selectedSegmentTintColor = .white
+        return control
     }()
     
     private var followingPosts = PostModel.mockModels()
@@ -41,11 +49,13 @@ class HomeViewController: UIViewController {
         
         configView()
         setUpFeed()
+        setupHeaderButtons()
     }
     
     //MARK: - UI Config
     
     private func configView() {
+        horizontalScrollView.delegate = self
         self.view.addSubview(horizontalScrollView)
         horizontalScrollView.contentSize = CGSize(width: self.view.width * 2, height: self.view.height)
         horizontalScrollView.contentOffset = CGPoint(x: view.width, y: 0)
@@ -54,6 +64,11 @@ class HomeViewController: UIViewController {
     private func setUpFeed() {
         makePagerForSection(.FollowingFeed)
         makePagerForSection(.ForYou)
+    }
+    
+    private func setupHeaderButtons() {
+        segmentedControl.addTarget(self, action: #selector(didChangeSegmentControl(sender:)), for: .valueChanged)
+        navigationItem.titleView = segmentedControl
     }
     
     //MARK: - Factory Methods
@@ -107,6 +122,14 @@ class HomeViewController: UIViewController {
         return index
     }
     
+    //MARK: - Action Buttons
+    @objc
+    private func didChangeSegmentControl(sender: UISegmentedControl) {
+        horizontalScrollView.setContentOffset(CGPoint(x: view.width * CGFloat(sender.selectedSegmentIndex),
+                                                      y: 0),
+                                              animated: true)
+    }
+    
 }
 
 extension HomeViewController: UIPageViewControllerDataSource {
@@ -157,4 +180,14 @@ extension HomeViewController: UIPageViewControllerDataSource {
         }
     }
     
+}
+
+extension HomeViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView.contentOffset.x == 0 || scrollView.contentOffset.x < (view.width / 2) {
+            segmentedControl.selectedSegmentIndex = 0
+        } else if scrollView.contentOffset.x > (view.width / 2) {
+            segmentedControl.selectedSegmentIndex = 1
+        }
+    }
 }
